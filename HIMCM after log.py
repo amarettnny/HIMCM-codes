@@ -35,7 +35,7 @@ def View(user,comp):
         result['Preparation Money Cost'] = 25
         result['Preparation Time Cost'] = 1.0
     elif user.prefType == 1 and comp.type == 0:
-        result['Preparation Money Cost'] = 0.5
+        result['Preparation Money Cost'] = 0.6
         result['Preparation Time Cost'] = 0.2
     elif user.prefType == 1 and comp.type == 1:
         result['Preparation Money Cost'] = 5
